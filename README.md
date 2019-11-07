@@ -14,7 +14,7 @@
 
 - [React](https://github.com/facebook/react): A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [Next](https://github.com/zeit/next.js): The React Framework.
-- [Redux](https://github.com/reduxjs/redux): a predictable state container for JavaScript apps.
+- [Redux](https://github.com/reduxjs/redux): A predictable state container for JavaScript apps.
 - [Redux-Saga](https://github.com/redux-saga/redux-saga): An alternative side effect model for Redux apps.
 - [Reselect](https://github.com/reduxjs/reselect): Selector library for Redux.
 - [axios](https://github.com/axios/axios): Promise based HTTP client for the browser and node.js
@@ -32,5 +32,11 @@
 #### Dev
 
 ```bash
-$ yarn install && yarn dev
+$ yarn && yarn dev
 ```
+
+### Read more
+
+Due to the nature of server-side rendering and its gotchas, it is recommended to take a look of following resources:
+
+- [Redux Saga in Next.js by Example](https://www.robinwieruch.de/nextjs-redux-saga)
