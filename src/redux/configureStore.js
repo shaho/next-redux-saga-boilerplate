@@ -4,12 +4,12 @@ import createSagaMiddleware from "redux-saga";
 import rootReducer from "./rootReducer";
 import rootSaga from "./rootSaga";
 
-function configureStore(preloadedState) {
+function configureStore(initialState) {
   const sagaMiddleware = createSagaMiddleware();
 
   const store = createStore(
     rootReducer,
-    preloadedState,
+    initialState,
     applyMiddleware(sagaMiddleware),
   );
 
